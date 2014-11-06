@@ -47,7 +47,6 @@
             {.if description}<div class="page-desc">{description}</div>{.end}
           </div>
         </div>
-	      {mainContent}
 	     </div>
     </div>
   </div>

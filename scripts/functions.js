@@ -15,11 +15,14 @@
 				$.colorbox.resize();
 
 				$video.find('video, iframe').remove();
+	
+				$('#cboxLoadedContent iframe').load(function() {
 
-				console.log($video.find('.sqs-video-overlay'));
-				$video.find('.sqs-video-overlay').animate({
-					'opacity' : '1',
-					'visibility' : 'visible'
+					$video.find('.sqs-video-overlay').css({
+						'opacity' : '1',
+						'visibility' : 'visible'
+					});
+					
 				});
 			},
 			onClosed: function() {

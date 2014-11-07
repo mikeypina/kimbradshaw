@@ -10,6 +10,8 @@
 			scrolling: false,
 			onComplete: function() {
 				$.colorbox.resize();
+
+				$(this).find('video, iframe').remove();
 			}
 		})
 	});

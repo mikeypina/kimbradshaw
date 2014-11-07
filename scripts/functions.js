@@ -17,7 +17,7 @@
 				$video.find('video, iframe').remove();
 
 				$video.find('.sqs-video-overlay').css({
-					"visibility" : 'visible'
+					'visibility' : 'visible'
 				});
 			}
 		})

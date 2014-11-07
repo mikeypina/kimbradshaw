@@ -5,6 +5,8 @@
 	$doc.ready(function() {
 
 		$('.sqs-video-wrapper').colorbox({
+			width: '80%',
+			height: '56%',
 			html: function() {
 				return $(this).data('html');
 			},

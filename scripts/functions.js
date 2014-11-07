@@ -9,9 +9,16 @@
 			},
 			scrolling: false,
 			onComplete: function() {
+
+				var $video = $(this);
+
 				$.colorbox.resize();
 
-				$(this).find('video, iframe').remove();
+				$video.find('video, iframe').remove();
+
+				$video.find('.sqs-video-overlay').css({
+					"visibility" : 'visible'
+				});
 			}
 		})
 	});

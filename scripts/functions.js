@@ -16,7 +16,7 @@
 
 				$video.find('video, iframe').remove();
 
-				$video.find('.sqs-video-overlay').css({
+				$video.find('.sqs-video-overlay').delay(400).animate().css({
 					'visibility' : 'visible'
 				});
 			}

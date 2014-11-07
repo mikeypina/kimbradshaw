@@ -11,6 +11,7 @@
     <squarespace:script src="site.js" combo="true" />
     <squarespace:script src="jquery.js" combo="true" />
     <squarespace:script src="jquery.colorbox-min.js" combo="true" />
+    <squarespace:script src="functions.js" combo="true" />
   </head>
 
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}{.if item}{.section item}{.main-image?} has-banner-image{.end}{.end}{.or}{.section collection}{.equal? typeName "index"}{.section collections}{.section 0}{.section mainImage} has-banner-image{.end}{.end}{.end}{.or}{.equal? typeName "album"}{.or}{.equal? typeName "gallery"}{.or}{.section mainImage} has-banner-image{.end}{.end}{.end}{.end}{.end}{.end}">

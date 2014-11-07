@@ -16,14 +16,14 @@
 
 				$video.find('video, iframe').remove();
 
-				$video.find('.sqs-video-overlay').css({
+				$video.find('.sqs-video-overlay').delay(1000).animate().css({
 					'opacity' : '1',
 					'visibility' : 'visible'
 				});
 			},
 			onClosed: function() {
 				var $video = $(this);
-				
+
 				$video.find('.sqs-video-overlay').css({
 					'opacity' : '1',
 					'visibility' : 'visible'

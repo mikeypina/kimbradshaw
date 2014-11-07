@@ -21,7 +21,9 @@
 					'visibility' : 'visible'
 				});
 			},
-			onClosed: function(argument) {
+			onClosed: function() {
+				var $video = $(this);
+				
 				$video.find('.sqs-video-overlay').css({
 					'opacity' : '1',
 					'visibility' : 'visible'

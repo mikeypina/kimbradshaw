@@ -17,13 +17,13 @@
 				$video.find('video, iframe').remove();
 
 				$video.find('.sqs-video-overlay').css({
-					'opacity' : '1'
+					'opacity' : '1',
 					'visibility' : 'visible'
 				});
 			},
 			onClosed: function(argument) {
 				$video.find('.sqs-video-overlay').css({
-					'opacity' : '1'
+					'opacity' : '1',
 					'visibility' : 'visible'
 				});
 			}

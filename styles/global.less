@@ -2119,13 +2119,11 @@ div[data-url-id^="stills"] {
 
 @media screen and (max-width: 700px) {
 
-    [data-url-id*="slider"],
-    [data-url-id*="landing"] {
+    [data-url-id*="slider"] .content .sqs-block,
+    [data-url-id*="landing"] .content .sqs-block { padding: 0 !important; }
 
-       .sqs-block  { padding: 0 !important; }
-
-    }
-
-
-div[data-url-id*="gray-"] .content.has-main-image .sqs-block, div[data-url-id^="digital"] .content.has-main-image .sqs-block, div[data-url-id^="musicvideos"] .content.has-main-image .sqs-block, div[data-url-id^="commercials-1"] .content.has-main-image .sqs-block { padding: 0 !important; }
+    div[data-url-id*="gray-"] .content.has-main-image .sqs-block,
+    div[data-url-id^="digital"] .content.has-main-image .sqs-block,
+    div[data-url-id^="musicvideos"] .content.has-main-image .sqs-block,
+    div[data-url-id^="commercials-1"] .content.has-main-image .sqs-block { padding: 0 !important; }
 }
